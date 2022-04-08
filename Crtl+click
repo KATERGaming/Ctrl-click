@@ -34,8 +34,8 @@ else
 	_G.WRDClickTeleport = not _G.WRDClickTeleport
 	--Notify
 	if _G.WRDClickTeleport then
-		print("KATER HUB CNTRL+CLICK ONLINE")
+		print("[KATER HUB] Ctrl+Click: ONLINE")
 	else
-		print("KATER HUB CNTRL+CLICK OFFLINE")
+		print("[KATER HUB] Ctrl+Click: OFFLINE")
 	end
 end
