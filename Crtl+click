@@ -34,8 +34,8 @@ else
 	_G.WRDClickTeleport = not _G.WRDClickTeleport
 	--Notify
 	if _G.WRDClickTeleport then
-		game.StarterGui:SetCore("SendNotification", {Title="KATER HUB"; Text="Click teleport enabled"; Duration=5;})
+		print("KATER HUB CNTRL+CLICK ONLINE")
 	else
-		game.StarterGui:SetCore("SendNotification", {Title="KATER HUB"; Text="Click teleport disabled"; Duration=5;})
+		print("KATER HUB CNTRL+CLICK OFFLINE")
 	end
 end
